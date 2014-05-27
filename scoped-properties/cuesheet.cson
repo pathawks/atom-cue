@@ -1,0 +1,13 @@
+'.source.cuesheet':
+  'editor':
+    'commentStart': 'REM COMMENT '
+    'increaseIndentPattern': '(FILE|TRACK)'
+    'completions': [
+      'FILE'
+      'TRACK'
+      'INDEX'
+      'REM'
+      'WAVE'
+      'BINARY'
+      'AUDIO'
+    ]

@@ -1,0 +1,18 @@
+{
+  "name": "language-cuesheet",
+  "version": "0.1.0",
+  "description": "Cue sheet support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/pathawks/atom-cue",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pathawks/atom-cue.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pathawks/atom-cue/issues"
+  }
+}

@@ -63,7 +63,7 @@
         'name': 'string.quoted'
   }
   {
-    'match': '(REM) (GENRE|DATE|DISCID|DISCNUMBER|TOTALDISCS|COMMENT) (.*)'
+    'match': '(REM) (GENRE|DATE|DISCID|DISCNUMBER|TOTALDISCS) (.*)'
     'captures':
       '1':
         'name': 'keyword'
@@ -73,11 +73,13 @@
         'name': 'string'
   }
   {
-    'match': '(REM) (.*)'
+    'match': '(REM( COMMENT)?) (.*)'
     'captures':
       '1':
         'name': 'keyword'
       '2':
+        'name': 'keyword'
+      '3':
         'name': 'comment'
   }
 ]

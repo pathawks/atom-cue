@@ -3,7 +3,6 @@
 'fileTypes': [
   'cue'
 ]
-'foldingStartMarker': 'TRACK|FILE'
 'patterns': [
   {
     'match': '(FILE) ([\'\"][^\'\"]+[\'\"]) (WAVE|MP3|AIFF|BINARY|MOTOROLA)'

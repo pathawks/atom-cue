@@ -1,6 +1,6 @@
 {
   "name": "language-cuesheet",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Cue sheet support in Atom",
   "engines": {
     "atom": "*",
